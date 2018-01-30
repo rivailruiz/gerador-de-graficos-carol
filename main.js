@@ -1,5 +1,5 @@
 $(window).load(function(){
-    $('#gerar').on('click', function(e){
+    $('#gerar').on('click tap', function(e){
         e.preventDefault();
         var pub1 = $('#pub1').val();
         var alc1 = $('#alc1').val();
