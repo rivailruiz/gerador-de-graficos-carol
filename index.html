@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerador de gráficos</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+    body {
+        background: url('https://image.freepik.com/fotos-gratis/flores-bonitas-em-fundo-rosa-com-espaco-na-direita_23-2147691006.jpg');
+        background-position: inherit;
+        background-size: cover;
+    }
+    .title {
+        text-align: center;
+        color: white;
+    }
+
+    .content{
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="title"><h2>Gerador de gráficos da Carolzinha</h2></div>
+        <div class="content">
+            <form action="">
+                <div class="item1">
+                    <h5>Item 1</h5>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="pub1" placeholder="Nº de publicações">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="alc1" placeholder="Alcance">
+                    </div>
+                </div>
+                <div class="item2">
+                    <h5>Item 2</h5>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="pub2" placeholder="Nº de publicações">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="alc1" placeholder="Alcance">
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block" id="gerar">Gerar</button>
+            </form>
+            <div class="area-grafico">
+                <canvas id="myChart" width="400" height="400"></canvas>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script
+src="http://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js "></script>
+<script src="main.js "></script>
+</html>
